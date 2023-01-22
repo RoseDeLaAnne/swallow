@@ -109,3 +109,7 @@ h2 {
 h3 {
   font-size: var(--h3__font-size);
 }
+
+p {
+  font-size: var(--p__font-size);
+}

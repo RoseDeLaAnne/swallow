@@ -9,17 +9,65 @@
     <link rel="stylesheet" href="css/config.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/keyframes.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/blocks/index.css" />
+    <link rel="stylesheet" href="css/blocks/nav.css" />
+    <link rel="stylesheet" href="css/blocks/button.css" />
+    <link rel="stylesheet" href="css/blocks/ready-to-help.css" />
 
     <title>Index</title>
   </head>
   <body>
     <div class="page">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, quos?
+      <img src="images/index__splash.jpg" alt="" class="page__splash" />
+      <div class="page__splash-overlay"></div>
+
+      <header id="header" class="header">
+        <a href="#" class="logo">
+          <img src="icons/logo.svg" alt="" class="logo__img" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__box-1">
+            <li class="nav__item">
+              <a href="#" class="nav__item-link"> О сообществе </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item-link"> Материалы </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item-link"> Программы </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__item-link"> Предложения о сотрудниках </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="page__box-1">
+        <h1 class="page__title">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p class="page__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+          voluptatem delectus quisquam possimus deserunt doloremque consequuntur
+          molestias maxime, quasi, voluptates rem? Mollitia, quae provident.
+        </p>
+        <button class="button button_ready-to-help">Готов помочь</button>
+      </div>
+
+      <button id="ready-to-help" class="ready-to-help"></button>
+
+      <div id="modal" class="modal">
+        <div class="modal__inner">
+          <h2></h2>
+        </div>
+      </div>
     </div>
 
     <script src="js/general.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>

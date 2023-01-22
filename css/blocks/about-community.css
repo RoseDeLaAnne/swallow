@@ -15,18 +15,21 @@
   flex-direction: column;
 }
 
-.purposes__box-1 ul {
+.purposes__box-1 ul,
+.tasks__box-1 ul {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
 
-.purposes__box-1 ul {
+.purposes__box-1 ul,
+.tasks__box-1 ul {
   list-style-type: disc;
 }
 
-.purposes__item-text {
+.purposes__item-text,
+.tasks__item-text {
   font-size: 24px;
 }
 

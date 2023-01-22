@@ -17,10 +17,10 @@
 .page__box-1 {
   position: absolute;
 
-  top: 60%;
+  top: 40%;
   left: 128px;
 
-  transform: translate(0, -60%);
+  transform: translate(0, -40%);
 
   width: 50%;
 

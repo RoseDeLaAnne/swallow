@@ -1,5 +1,5 @@
-const readyToHelp = document.getElementById('ready-to-help')
+const readyToHelp = document.getElementById("ready-to-help");
 
-readyToHelp.addEventListener('click', () => {
-  
-})
+readyToHelp.addEventListener("click", () => {
+  console.log("clicke");
+});

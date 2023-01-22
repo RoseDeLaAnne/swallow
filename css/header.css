@@ -1,0 +1,16 @@
+#header {
+  padding-right: 128px;
+  padding-left: 128px;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: var(--header__height);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

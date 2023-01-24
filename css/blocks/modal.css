@@ -1,5 +1,11 @@
-#modal {
+#modal  {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
   position: fixed;
+
+  z-index: 1000;
 
   top: 0;
   right: 0;
@@ -7,4 +13,32 @@
   left: 0;
 
   background-color: rgba(0, 0, 0, .3);
+}
+
+.modal__inner{
+  padding: 64px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  width: 70%;
+  height: 70%;
+}
+
+.modal__inner-align{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+
+.modal__inner-input{
+  padding: 8px 32px;
+  background-color: rgb(198, 240, 198);
+  font-size: 24px;
+}
+
+label{
+  font-size: 24px;
 }

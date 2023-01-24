@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/blocks/nav.css" />
     <link rel="stylesheet" href="css/blocks/button.css" />
     <link rel="stylesheet" href="css/blocks/ready-to-help.css" />
+    <link rel="stylesheet" href="css/blocks/modal.css" />
+    <link rel="stylesheet" href="css/blocks/logo.css" />
 
     <title>Index</title>
   </head>
@@ -197,7 +199,22 @@
 
       <div id="modal" class="modal">
         <div class="modal__inner">
-          <h2>Пожертвовать</h2>
+          <h1>ПОЖЕРТВОВАТЬ</h1>
+          <div class="modal__inner-align">
+            
+            <label
+              >Ваше ФИО <input class="modal__inner-input" type="text"
+            /></label>
+            <label
+              >Ваш email <input class="modal__inner-input" type="email"
+            /></label>
+            <label
+              >Сумма пожертвования
+              <input class="modal__inner-input" type="number"
+            /></label>
+          </div>
+            <button class="button button_ready-to-help">ПОЖЕРТВОВАТЬ</button>
+          
         </div>
       </div>
     </div>

@@ -8,11 +8,19 @@
   justify-content: space-between;
 }
 
+.page__title {
+  margin-bottom: 64px;
+
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
 
   max-width: 1440px;
+  width: 100%;
 }
 
 .main {
